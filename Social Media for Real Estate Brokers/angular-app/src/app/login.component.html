@@ -1,0 +1,7 @@
+
+<h1>This is the Login Component</h1>
+<form (ngSubmit)="onSubmit($event)">
+  <input type="text" placeholder="Username" [(ngModel)]="username" name="username" required />
+  <input type="password" placeholder="Password" [(ngModel)]="password" name="password" required />
+  <input type="submit" value="Login" />
+</form>
